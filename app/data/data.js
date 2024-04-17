@@ -119,12 +119,12 @@ export const footerSponsors = [
 
 export const homepageData = {
   aboutBanner:
-    "BrumAI is the home of AI in the Midlands. We are a dynamic community dedicated to fostering innovation, collaboration, and learning in the field of Artificial Intelligence. Our mission is to unite individuals passionate about AI, creating a platform where ideas are exchanged, knowledge is enriched, and connections are formed.",
-  volunteerTitle: "VOLUNTEER WITH BRUM AI",
+    "Brum.AI is the home of AI in the Midlands. We are a dynamic community dedicated to fostering innovation, collaboration, and learning in the field of Artificial Intelligence. Our mission is to unite individuals passionate about AI, creating a platform where ideas are exchanged, knowledge is enriched, and connections are formed.",
+  volunteerTitle: "VOLUNTEER WITH BRUM.AI",
   volunteerCopyTop:
-    "BRUM.AI is a non-profit run entirely by volunteers. Our aim is to make the Midlands the hub for AI in the UK. Why the Midlands? The Industrial Revolution was forged here, as were the ideals of the Land of the Free, the theory of evolution and Shakespeare. The Midlands has the legacy, energy, intelligence and diversity to fuel the Fourth Industrial Revolution.",
+    "Brum.AI is a non-profit run entirely by volunteers. Our aim is to make the Midlands the hub for AI in the UK. Why the Midlands? The Industrial Revolution was forged here, as were the ideals of the Land of the Free, the theory of evolution and Shakespeare. The Midlands has the legacy, energy, intelligence and diversity to fuel the Fourth Industrial Revolution.",
   volunteerCopyBottom:
-    "BRUM.AI aims to be at the centre of this growth. Be part of our community-driven group managed by those at the cutting edge of AI. From helping to promote an event to initiatives on reaching new goals, get involved and play your part. Contact Us now!",
+    "Brum.AI aims to be at the centre of this growth. Be part of our community-driven group managed by those at the cutting edge of AI. From helping to promote an event to initiatives on reaching new goals, get involved and play your part. Contact Us now!",
   sponsorTitle: "SPONSOR US",
   sponsorCopyTop:
     "Help us make the Midlands the home of AI in the UK. Interested to hear about our sponsorship packages? Can you host our meetups?",
@@ -133,7 +133,7 @@ export const homepageData = {
 
 export const aboutUsCopy = {
   title: "About Us",
-  aboutUsP1: "BrumAI is the home of AI in the Midlands.",
+  aboutUsP1: "Brum.AI is the home of AI in the Midlands.",
   aboutUsP2:
     "We are a dynamic community dedicated to fostering innovation, collaboration, and learning in the field of Artificial Intelligence.",
   aboutUsP3:
@@ -171,7 +171,7 @@ export const coreTeamData = [
     name: "Dr Anandhi Vivek Dhukaram",
     role: "Co-organiser",
     imageUrl: "/assets/people_photos/anandhi.jpg",
-    description: "AI Innovation & Strategy Consultant - AI Literacy Training",
+    description: "Chief Responsible AI & Data Officer & AI Literacy Partner, Esdha.com",
     linkedin: "https://www.linkedin.com/in/anandhi-vivek-dhukaram/",
   },
   {
@@ -195,7 +195,7 @@ export const websiteTeamData = [
   {
     id: 2,
     name: "Cal Woodford",
-    role: "Full Stack Developer",
+    role: "Artificial Intelligence and Innovation Consultant",
     imageUrl: "/assets/people_photos/cal.jpg",
     linkedin: "https://www.linkedin.com/in/callumwoodford/",
   },
@@ -209,14 +209,14 @@ export const websiteTeamData = [
   {
     id: 4,
     name: "Samantha German",
-    role: "Full Stack Developer",
+    role: "Pega Apprentice @ Jetty Technologies",
     imageUrl: "/assets/people_photos/sam.jpg",
     linkedin: "https://www.linkedin.com/in/samantha-german-241265289/",
   },
   {
     id: 5,
     name: "Alexander Brown",
-    role: "Full Stack Developer",
+    role: "Full Stack Software Engineer with a background in Theatre, Education & HR",
     imageUrl: "/assets/people_photos/alex.jpg",
     linkedin: "https://www.linkedin.com/in/alexgeoffrey/",
   },

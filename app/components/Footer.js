@@ -12,7 +12,7 @@ export default function Footer({ data }) {
             return <SponsorsList key={sponsorsList.id} data={sponsorsList} />;
           })}
           <p className="w-full p-3">
-            BRUM AI is supported by these amazing sponsors
+            Brum.AI has been supported by these amazing organisations
           </p>
         </div>
         <div className="flex flex-col sm:grid sm:grid-cols-2 z-10 w-10/12 items-center sm:items-end self-center pb-4">
@@ -31,7 +31,7 @@ export default function Footer({ data }) {
           <div className="p-px bg-white dark:bg-black w-10/12 h-0 "></div>
           <div className="w-10/12 pb-32 pt-2 text-lg">
             <p>
-              &copy; Copyright {new Date().getFullYear()} BrumAI. All rights
+              &copy; Copyright {new Date().getFullYear()} Brum.AI All rights
               reserved.
             </p>
           </div>
