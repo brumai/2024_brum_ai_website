@@ -94,8 +94,8 @@ export const footerSponsors = [
   {
     id: 4,
     name: "WealthWizards",
-    imageLight: "/assets/wealth_logo_white.png",
-    imageDark: "/assets/wealth_logo_black.png",
+    imageLight: "/assets/Wealth_colour.png",
+    imageDark: "/assets/Wealth_colour.png",
     alt: "WealthWizards logo",
     url: "https://www.wealthwizards.com/",
   },
