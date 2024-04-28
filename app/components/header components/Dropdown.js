@@ -64,26 +64,29 @@ export default function Dropdown({ pages }) {
             {pages.map((menuItems) => {
               return <MenuItems key={menuItems.id} data={menuItems} handleOnClick={handleOnClick} />;
             })}
-            <div className="w-full flex justify-center border">
+            <div className="w-full flex justify-center">
               <ThemeSwitcher />
             </div>
           </ul>
         </div>)}
       </div>
 
-      <div className="w-full hidden ms:flex items-center">
-        <Link href="/" className="ml-3">
+      <div className="w-full hidden ms:flex items-center text-orange-50 border">
+        <div>
+        <Link href="/" className="p-2">
           Homepage
         </Link>
-        <Link href="/events" className="ml-3">
+        <Link href="/events" className="p-2">
           Events
         </Link>
-        <Link href="/aboutus" className="ml-3">
+        <Link href="/aboutus" className="p-2">
           About
         </Link>
-        <Link href="/contact" className="ml-3 ">
+        <Link href="/contact" className="p-2">
           Contact
         </Link>
+        </div>
+       
         <ThemeSwitcher />
       </div>
     </section>

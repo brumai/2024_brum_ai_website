@@ -17,7 +17,7 @@ export default function ThemeSwitcher() {
   }
 
   return (
-    <div className="justify-self-end mr-5 flex">
+    <div className="justify-self-end mr-5 flex border">
       <button onClick={() => setTheme("dark")}>
         <Image
           src="/assets/moon.png"

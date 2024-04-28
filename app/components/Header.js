@@ -20,9 +20,9 @@ export default function Header({ data, pages }) {
           alt="Brumai Logo in orange"
         />
       </Link>
-      <div className="flex justify-end items-center">
+      <div className="flex justify-end items-center border">
         <SocialDropdown data={data} />
-        <div className="hidden md:flex justify-end items-center space-x-4 border">
+        <div className="hidden md:flex justify-end items-center space-x-4">
           {data.map((socialsList) => {
             return <SocialsList key={socialsList.id} data={socialsList} />;
           })}

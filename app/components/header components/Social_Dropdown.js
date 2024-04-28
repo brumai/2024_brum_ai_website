@@ -21,13 +21,13 @@ export default function SocialDropdown({ data }) {
   };
 
   return (
-    <section className="flex">
+    <section className="flex ">
       <button
         onClick={() => handleOnClick()}
         ref={menuRef}
         id="socialDropdownDefaultButton"
         data-dropdown-toggle="dropdown"
-        className="text-white bg-navy hover:bg-gray-700 font-medium rounded-lg text-sm px-2.5 py-2.5 text-center inline-flex items-center dark:bg-navy md:hidden"
+        className=" hover:bg-gray-700 font-medium rounded-lg text-sm px-2.5 py-2.5 text-center inline-flex items-center md:hidden"
         type="button"
       >
         <svg
@@ -45,13 +45,13 @@ export default function SocialDropdown({ data }) {
             d="m1 1 4 4 4-4"
           />
         </svg>
-        <span className="text-navy hover:bg-grey-700">_</span>Socials
+        <span className="text-red hover:bg-grey-700">_</span>Socials
       </button>
 
       {dropdown && (<div
       ref={dropdownRef}
         id="dropdown"
-        className={`z-10 ${dropdown} absolute right-4 top-16 bg-gray-700 divide-y divide-gray-100 rounded-lg shadow w-20 flex justify-end items-center flex-col md:hidden border-2`}
+        className={`z-10 ${dropdown} absolute right-4 top-16 bg-black divide-y divide-gray-100 rounded-lg shadow w-20 flex justify-end items-center flex-col md:hidden border-2 `}
       >
         <ul
           className="py-2 text-sm text-gray-700 space-x-4 border-2"
