@@ -25,7 +25,7 @@ export default function Dropdown({ pages }) {
   };
 
   return (
-    <section className=" flex w-full">
+    <section className=" flex w-full border">
       <div>
         <button
           onClick={() => handleOnClick()}
@@ -64,24 +64,24 @@ export default function Dropdown({ pages }) {
             {pages.map((menuItems) => {
               return <MenuItems key={menuItems.id} data={menuItems} handleOnClick={handleOnClick} />;
             })}
-            <div className="w-full flex justify-center">
+            <div className="w-full flex justify-center border">
               <ThemeSwitcher />
             </div>
           </ul>
         </div>)}
       </div>
 
-      <div className="w-full hidden ms:flex items-center ">
-        <Link href="/" className="ml-3 bg-navy text-white ">
+      <div className="w-full hidden ms:flex items-center">
+        <Link href="/" className="ml-3">
           Homepage
         </Link>
-        <Link href="/events" className="ml-3 bg-navy text-white">
+        <Link href="/events" className="ml-3">
           Events
         </Link>
-        <Link href="/aboutus" className="ml-3 bg-navy text-white">
+        <Link href="/aboutus" className="ml-3">
           About
         </Link>
-        <Link href="/contact" className="ml-3 bg-navy text-white">
+        <Link href="/contact" className="ml-3 ">
           Contact
         </Link>
         <ThemeSwitcher />

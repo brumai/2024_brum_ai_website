@@ -51,10 +51,10 @@ export default function SocialDropdown({ data }) {
       {dropdown && (<div
       ref={dropdownRef}
         id="dropdown"
-        className={`z-10 ${dropdown} absolute right-4 top-16 bg-gray-700 divide-y divide-gray-100 rounded-lg shadow w-20 flex justify-end items-center flex-col md:hidden`}
+        className={`z-10 ${dropdown} absolute right-4 top-16 bg-gray-700 divide-y divide-gray-100 rounded-lg shadow w-20 flex justify-end items-center flex-col md:hidden border-2`}
       >
         <ul
-          className="py-2 text-sm text-gray-700 space-x-4"
+          className="py-2 text-sm text-gray-700 space-x-4 border-2"
           aria-labelledby="socialDropdownDefaultButton"
         >
           {data.map((socialsList) => {

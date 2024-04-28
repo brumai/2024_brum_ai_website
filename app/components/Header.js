@@ -6,13 +6,13 @@ import SocialDropdown from "./header components/Social_Dropdown";
 
 export default function Header({ data, pages }) {
   return (
-    <section className="min-w-[360px] grid grid-cols-3 md:grid-cols-[5fr_1fr_5fr] gap-x-2 place-content-evenly items-center width-screen h-4 justify-between px-3 py-8 bg-navy text-white">
-      <div className="flex justify-start ">
-        <div className="flex justify-center">
+    <section className="min-w-[360px] grid grid-cols-3 md:grid-cols-[5fr_1fr_5fr] gap-x-2 place-content-evenly items-center width-screen h-4 justify-between px-3 py-10 bg-black text-red border-2">
+      <div className="flex justify-start border ">
+        <div className="flex justify-center border">
           <Dropdown pages={pages} />
         </div>
       </div>
-      <Link href="/" className="flex justify-center">
+      <Link href="/" className="flex justify-center border">
         <Image
           src="/assets/orange_logo.png"
           width={100}
@@ -22,7 +22,7 @@ export default function Header({ data, pages }) {
       </Link>
       <div className="flex justify-end items-center">
         <SocialDropdown data={data} />
-        <div className="hidden md:flex justify-end items-center space-x-4">
+        <div className="hidden md:flex justify-end items-center space-x-4 border">
           {data.map((socialsList) => {
             return <SocialsList key={socialsList.id} data={socialsList} />;
           })}
