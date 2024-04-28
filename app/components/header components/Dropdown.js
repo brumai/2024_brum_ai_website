@@ -25,7 +25,7 @@ export default function Dropdown({ pages }) {
   };
 
   return (
-    <section className=" flex w-full border">
+    <section className=" flex w-full">
       <div>
         <button
           onClick={() => handleOnClick()}
@@ -58,7 +58,7 @@ export default function Dropdown({ pages }) {
           className={`z-10 absolute left-3 top-16 bg-gray-700 divide-y divide-gray-100 rounded-lg shadow w-36 ms:hidden`}
         >
           <ul
-            className="py-2 text-sm text-white"
+            className="py-2 text-sm"
             aria-labelledby="dropdownDefaultButton"
           >
             {pages.map((menuItems) => {

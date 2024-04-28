@@ -6,8 +6,8 @@ import SocialDropdown from "./header components/Social_Dropdown";
 
 export default function Header({ data, pages }) {
   return (
-    <section className="min-w-[360px] grid grid-cols-3 md:grid-cols-[5fr_1fr_5fr] gap-x-2 place-content-evenly items-center width-screen h-4 justify-between px-3 py-10 bg-black text-red border-2">
-      <div className="flex justify-start border ">
+    <section className="min-w-[360px] grid grid-cols-3 md:grid-cols-[5fr_1fr_5fr] gap-x-2 place-content-evenly items-center width-screen py-6 px-4 justify-between bg-black border-2">
+      <div className="flex justify-start border">
         <div className="flex justify-center border">
           <Dropdown pages={pages} />
         </div>
