@@ -87,7 +87,7 @@ export default function Dropdown({ pages }) {
         </Link>
         </div>
        
-        <ThemeSwitcher />
+        {/* <ThemeSwitcher /> */}
       </div>
     </section>
   );

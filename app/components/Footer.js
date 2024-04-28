@@ -4,14 +4,14 @@ import FooterGraffiti from "./footer components/FooterGraffiti";
 
 export default function Footer({ data }) {
   return (
-    <section className="flex flex-col w-screen justify-between min-w-[360px] ">
+    <section className="flex flex-col w-screen justify-between min-w-[360px] border-2 border-red-500 ">
       <FooterGraffiti />
-      <footer className="flex flex-col w-screen justify-between min-w-[360px] pt-3 bg-black text-white dark:bg-white dark:text-black">
-        <div className="grid place-items-center gap-y-4 sm:grid-cols-2 md:flex md:flex-wrap justify-center items-center text-center z-10">
+      <footer className="flex flex-col w-screen justify-between min-w-[360px] bg-black text-white dark:bg-white dark:text-black">
+        <div className="grid place-items-center gap-y-4 sm:grid-cols-2 md:flex md:flex-wrap justify-center items-center text-center z-10 bg-red-500 mb-6">
           {data.map((sponsorsList) => {
             return <SponsorsList key={sponsorsList.id} data={sponsorsList} />;
           })}
-          <p className="w-full p-3">
+          <p className="border-2">
             Brum.AI has been supported by these amazing organisations
           </p>
         </div>

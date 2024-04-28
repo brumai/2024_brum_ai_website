@@ -17,7 +17,7 @@ export default function YouTube() {
         />
       </div>
 
-      <div className="border-2 border-zinc-700 rounded-lg">
+      <div className="border-2 border-zinc-700 rounded-lg mb-8">
         <CardMedia
           component="iframe"
           width="560"
