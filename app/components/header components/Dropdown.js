@@ -26,13 +26,14 @@ export default function Dropdown({ pages }) {
 
   return (
     <section className=" flex w-full">
+      {/*Left Header Dropdown */}
       <div>
         <button
           onClick={() => handleOnClick()}
           ref={menuRef}
           id="dropdownDefaultButton"
           data-dropdown-toggle="dropdown"
-          className="text-white bg-navy hover:bg-gray-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ms:hidden"
+          className="text-white bg-navy-700 hover:bg-gray-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ms:hidden"
           type="button"
         >
           Menu{" "}
@@ -70,8 +71,9 @@ export default function Dropdown({ pages }) {
           </ul>
         </div>)}
       </div>
-
-      <div className="w-full hidden ms:flex items-center text-orange-50 border">
+      
+      {/*Top Left homepage / Events / About / Contact text-orange-50 border */}
+      <div className="w-full hidden ms:flex items-center ">
         <div>
         <Link href="/" className="p-2">
           Homepage

@@ -45,16 +45,17 @@ export default function SocialDropdown({ data }) {
             d="m1 1 4 4 4-4"
           />
         </svg>
-        <span className="text-red hover:bg-grey-700">_</span>Socials
+        <span className="text-red hover:bg-gray-700">_</span>Socials
       </button>
-
+      
+      {/*Social List Dropdown menu */}
       {dropdown && (<div
       ref={dropdownRef}
         id="dropdown"
-        className={`z-10 ${dropdown} absolute right-4 top-16 bg-black divide-y divide-gray-100 rounded-lg shadow w-20 flex justify-end items-center flex-col md:hidden border-2 `}
+        className={`z-10 ${dropdown} absolute right-4 top-16 bg-black divide-y divide-gray-100 rounded-lg shadow w-20 flex justify-end items-center flex-col md:hidden `}
       >
         <ul
-          className="py-2 text-sm text-gray-700 space-x-4 border-2"
+          className="py-2 text-sm text-gray-700 space-x-4"
           aria-labelledby="socialDropdownDefaultButton"
         >
           {data.map((socialsList) => {

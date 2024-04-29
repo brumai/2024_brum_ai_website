@@ -6,13 +6,14 @@ import SocialDropdown from "./header components/Social_Dropdown";
 
 export default function Header({ data, pages }) {
   return (
-    <section className="min-w-[360px] grid grid-cols-3 md:grid-cols-[5fr_1fr_5fr] gap-x-2 place-content-evenly items-center width-screen py-6 px-4 justify-between bg-black border-2">
-      <div className="flex justify-start border">
-        <div className="flex justify-center border">
+    <section className="min-w-[360px] grid grid-cols-3 md:grid-cols-[5fr_1fr_5fr] gap-x-2 place-content-evenly items-center width-screen py-6 px-4 justify-between bg-black">
+      <div className="flex justify-start"> {/* Dropdown Border 1*/}
+        <div className="flex justify-center"> {/* Dropdown Border */}
           <Dropdown pages={pages} />
         </div>
       </div>
-      <Link href="/" className="flex justify-center border">
+
+      <Link href="/" className="flex justify-center"> {/* Brum.AI Border */}
         <Image
           src="/assets/orange_logo.png"
           width={100}
@@ -20,7 +21,8 @@ export default function Header({ data, pages }) {
           alt="Brumai Logo in orange"
         />
       </Link>
-      <div className="flex justify-end items-center border">
+      {/* Socials Border */}
+      <div className="flex justify-end items-center">
         <SocialDropdown data={data} />
         <div className="hidden md:flex justify-end items-center space-x-4">
           {data.map((socialsList) => {
