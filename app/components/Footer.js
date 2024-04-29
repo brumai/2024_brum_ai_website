@@ -4,9 +4,10 @@ import FooterGraffiti from "./footer components/FooterGraffiti";
 
 export default function Footer({ data }) {
   return (
-    <section className="flex flex-col w-screen justify-between min-w-[360px] border-2 border-red-500 ">
+    <section className="flex flex-col w-screen justify-between min-w-[360px] border 2 border-red-500 "> {/* Footer image*/}
       <FooterGraffiti />
       <footer className="flex flex-col w-screen justify-between min-w-[360px] bg-black text-white dark:bg-white dark:text-black">
+        {/* Background for sponsors*/}
         <div className="grid place-items-center gap-y-4 sm:grid-cols-2 md:flex md:flex-wrap justify-center items-center text-center z-10 bg-red-500 mb-6">
           {data.map((sponsorsList) => {
             return <SponsorsList key={sponsorsList.id} data={sponsorsList} />;

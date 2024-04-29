@@ -45,7 +45,7 @@ export default function SocialDropdown({ data }) {
             d="m1 1 4 4 4-4"
           />
         </svg>
-        <span className="text-red hover:bg-gray-700">_</span>Socials
+        <span className="text-red hover:bg-gray-700 mr-2">&nbsp;</span>Socials
       </button>
       
       {/*Social List Dropdown menu */}
