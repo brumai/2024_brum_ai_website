@@ -25,15 +25,9 @@ export default function FooterGraffiti() {
         alt="Footer graffiti"
         width={1800}
         height={100}
-        className="h-40 w-[51%] scale-x-[-1] mr-[-1px]"
+        className="h-50 w-[100%] scale-x-[-1] "
       />
-      <Image
-        src={src}
-        alt="Footer graffiti"
-        width={2000}
-        height={160}
-        className="w-[51%] h-40 ml-[-1px]"
-      />
+    
     </div>
   );
 }

@@ -3,8 +3,6 @@ import EventSection from "app/components/events/Events.js";
 import GetInvolved from "./components/get_involved_section/GetInvolved";
 import YouTube from "./components/social_media/YouTube";
 import EmbedInstagram from "./components/social_media/EmbedInstagram";
-// import EmbedLinkedIn from "./components/social_media/EmbedLinkedIn"; <EmbedLinkedIn />
-// import EmbedX from "./components/social_media/EmbedX"; <EmbedX />
 import { homepageData } from "./data/data";
 
 export default function Home() {
@@ -18,3 +16,6 @@ export default function Home() {
     </main>
   );
 }
+
+// import EmbedLinkedIn from "./components/social_media/EmbedLinkedIn"; <EmbedLinkedIn />
+// import EmbedX from "./components/social_media/EmbedX"; <EmbedX />
