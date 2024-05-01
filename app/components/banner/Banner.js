@@ -5,13 +5,14 @@ import { homepageData } from "@/app/data/data";
 
 const Banner = () => {
   return (
-    <div className="md:bg-[url('/assets/bull_photo_banner.jpg')] bg-cover bg-center w-screen h-[30rem] grid grid-cols-11 md:grid-cols-12 grid-rows-6 border-2">
-      <section className="flex col-start-11 row-start-6 justify-self-end md:justify-self-end md:row-start-2 mr-3">
-        <Button text={"Next event"} location={"/events"} />
-      </section>
+    <div className="md:bg-[url('/assets/bull_photo_banner.jpg')] bg-cover bg-center w-screen h-[34rem]">
+     
+
+
+      <div className="flex flex-col items-center justify-center gap-6 mt-10 md:block md:ml-[4rem]">
 
       {/* ugly coloured box */}
-      <div className="row-start-1 mt-3 md:row-start-2 md:mt-0 min-w-[350px] justify-self-center col-start-6 lg:min-w-[450px] lg:col-start-2 lg:justify-self-start 2xl:col-start-2 2xl:justify-self-start bg-gradient-to-r from-magenta via-citrus to-aqua h-[310px] rounded-2xl">
+      <div className="w-[340px] bg-gradient-to-r from-magenta via-citrus to-aqua rounded-2xl py-4 sm:mb-[2rem]">
 
         {/* welcome message title */}
         <div className="flex justify-center gap-2 mt-6 px-4">
@@ -32,8 +33,17 @@ const Banner = () => {
           </p>
         </div>
 
+        </div>
+
+
+        {/* next event button */}
+        <div className="">
+        <Button text={"Next event"} location={"/events"} />
+        </div>
 
       </div>
+      
+
     </div>
   );
 };

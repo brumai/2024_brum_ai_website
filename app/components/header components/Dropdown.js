@@ -66,7 +66,7 @@ export default function Dropdown({ pages }) {
               return <MenuItems key={menuItems.id} data={menuItems} handleOnClick={handleOnClick} />;
             })}
             <div className="w-full flex justify-center">
-              <ThemeSwitcher />
+              {/* <ThemeSwitcher /> */}
             </div>
           </ul>
         </div>)}
