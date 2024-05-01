@@ -9,7 +9,7 @@ const Banner = () => {
      
 
 
-      <div className="flex flex-col items-center justify-center gap-6 mt-10 md:block md:ml-[4rem]">
+      <div className="flex flex-col items-center justify-center gap-6 mt-10 md:block md:ml-[4rem] lg:ml-[6rem]">
 
       {/* ugly coloured box */}
       <div className="w-[340px] bg-gradient-to-r from-magenta via-citrus to-aqua rounded-2xl py-4 sm:mb-[2rem]">
