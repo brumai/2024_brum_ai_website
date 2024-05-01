@@ -31,7 +31,7 @@ export default function NextEventsMap({ data }) {
         style={{
           backgroundImage: `linear-gradient(rgba(255, 148, 77, 0.87), rgba(255, 148, 77, 0.87)), url(${image})`,
         }}
-        className={`border-4 border-citrus bg-cover bg-center rounded-2xl p-5 w-full h-full justify-self-center  transition-all hover:scale-110`}
+        className={`border-4 border-citrus bg-cover bg-center rounded-2xl p-2 w-full h-full justify-self-center  transition-all hover:scale-110`}
       >
         <div className="flex flex-col ">
           <h1 className="text-black font-bold text-3xl backdrop-blur-sm w-fit self-center p-0.5">{`${data.event_name}`}</h1>
