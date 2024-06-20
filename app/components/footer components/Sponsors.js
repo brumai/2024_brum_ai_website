@@ -2,7 +2,7 @@
 
 import { useTheme } from "next-themes";
 import Image from "next/image";
-
+import { footerSponsors } from "@/app/data/data"
 export default function SponsorsList({ data }) {
   const { resolvedTheme } = useTheme();
   let src;
@@ -17,10 +17,9 @@ export default function SponsorsList({ data }) {
       src = data.imageLight;
       break;
   }
-
   return (
     <a href={data.url} target="_blank" rel="noopener noreferrer" className="">
-      <Image src={src} width={170} height={120} alt={`${data.alt}`} />
+    <Image src={data.imageDark} width={150} height={50} alt={`${data.alt}`} />
     </a>
   );
 }
