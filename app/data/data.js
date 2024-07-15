@@ -149,7 +149,7 @@ export const coreTeamData = [
     name: "Nathan Lloyd",
     role: "Leading the Community",
     imageUrl: "/assets/people_photos/nathan.jpg",
-    description: "Student at Ontario Tech",
+    description: "Student at Ontario Tech", "Originally from Wolverhampton, Nathan obtained a BSc in Computer Science at De Montfort University and an MSc in Artificial Intelligence at Aston University, now a PhD candidate at Ontario Tech University, Canada. Initially a member of the community, first attending in 2019, Nathan joined the organizing team during COVID-19, co-hosting online sessions with Atanas and Ellie. Following the pandemic, they worked to bring us back to in-person meetups, build strong ties with local institutions, and run new types of events, like the Postgraduate Showcase. Although Nathan is across the pond, his heart remains firmly in the West Midlands, and he is humbled by the community's growth over these last few years. He is excited to see the community flourish and to see Birmingham take its well-deserved spot on the AI map."
     linkedin: "https://www.linkedin.com/in/nathanlloyd7/",
   },
   {
